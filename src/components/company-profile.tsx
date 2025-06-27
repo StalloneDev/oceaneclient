@@ -1,5 +1,5 @@
 import { MapPin, Globe, UserCheck } from "lucide-react";
-import oceaneLogo from "@assets/image4-removebg-preview_1750870939621.png";
+import oceaneLogo from "../../attached_assets/image4-removebg-preview_1750870939621.png";
 
 export default function CompanyProfile() {
   return (

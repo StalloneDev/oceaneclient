@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import oceaneLogo from "@assets/image4-removebg-preview_1750870939621.png";
+import oceaneLogo from "../../attached_assets/image4-removebg-preview_1750870939621.png";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { MapPin, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import oceaneLogo from "@assets/image4-removebg-preview_1750870939621.png";
+import oceaneLogo from "../../attached_assets/image4-removebg-preview_1750870939621.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
