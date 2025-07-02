@@ -100,10 +100,10 @@ export default function ContactSection() {
               <CardContent className="space-y-4">
                 <div className="flex items-center text-white">
                   <UserCheck className="text-yellow-400 mr-4 h-5 w-5" />
-                  <div>
+{/*                   <div>
                     <p className="font-semibold">Thierry ADJIVEHOU</p>
                     <p className="text-gray-200">Founder - OCEANE CENTER</p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="flex items-center text-white">
                   <FaWhatsapp className="text-green-400 mr-4 h-5 w-5" />
@@ -139,7 +139,7 @@ export default function ContactSection() {
                     asChild
                     className="bg-green-500 hover:bg-green-600 text-white"
                   >
-                    <a href="https://wa.me/22901581885552" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/2290158188552" target="_blank" rel="noopener noreferrer">
                       <FaWhatsapp className="mr-2 h-4 w-4" />
                       WhatsApp
                     </a>
