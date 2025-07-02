@@ -223,7 +223,7 @@ export default function ProductsSection() {
             Our Premium Products
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            High-quality agricultural products from Benin, carefully processed and packaged for international export
+            High-quality agricultural products from Benin, carefully processed and packaged for the world market.
           </p>
         </div>
 
