@@ -10,7 +10,7 @@ export default function CompanyProfile() {
             Company Profile
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Established in Abomey-Calavi, Cotonou, Benin, we specialize in the production and export of premium agricultural products
+            Established in Abomey-Calavi, Cotonou, Benin, we connect the best of Benin's agriculture to the world, focusing on quality, sustainable impact and reliable business relationships.
           </p>
         </div>
 
@@ -43,8 +43,8 @@ export default function CompanyProfile() {
                 <UserCheck className="text-white mr-3 h-5 w-5" />
                 Leadership
               </h3>
-              <p><strong>Founder:</strong> Thierry ADJIVEHOU</p>
-              <p className="text-gray-100 mt-2">Leading with expertise in agricultural export procedures and international trade</p>
+              
+              <p className="text-gray-100 mt-2">Anchored in action, innovation and export, we lead with passion, strategy and responsibility towards every player in the agricultural chain.</p>
             </div>
           </div>
 
