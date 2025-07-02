@@ -1,8 +1,20 @@
 import { MapPin, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import oceaneLogo from "../../attached_assets/image4-removebg-preview_1750870939621.png";
+import { useEffect, useRef } from "react";
 
 export default function Footer() {
+  const adsRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (window && (window as any).adsbygoogle && adsRef.current) {
+      try {
+        (window as any).adsbygoogle.push({});
+      } catch (e) {
+        // ignore
+      }
+    }
+  }, []);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -23,6 +35,15 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
+        <div ref={adsRef} className="flex justify-center mb-8">
+          <ins className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-2547821477385099"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-4 mb-4">

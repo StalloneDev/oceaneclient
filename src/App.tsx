@@ -12,14 +12,34 @@ import ProductsSection from "@/components/products-section";
 import GuaranteesAdvantagesSection from "@/components/guarantees-advantages-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
+import { useEffect, useRef } from "react";
 
 function MainPage() {
+  const adsRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (window && (window as any).adsbygoogle && adsRef.current) {
+      try {
+        (window as any).adsbygoogle.push({});
+      } catch (e) {
+        // ignore
+      }
+    }
+  }, []);
   return (
     <>
       <Navigation />
       <HeroSection />
       <CompanyProfile />
       <ProductsSection />
+      <div ref={adsRef} className="flex justify-center my-8">
+        <ins className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-2547821477385099"
+          data-ad-slot="1234567890"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </div>
       <GuaranteesAdvantagesSection />
       <ContactSection />
       <Footer />
