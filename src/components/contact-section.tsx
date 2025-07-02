@@ -99,7 +99,7 @@ export default function ContactSection() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center text-white">
-                  <UserCheck className="text-yellow-400 mr-4 h-5 w-5" />
+{/*                   <UserCheck className="text-yellow-400 mr-4 h-5 w-5" /> */}
 {/*                   <div>
                     <p className="font-semibold">Thierry ADJIVEHOU</p>
                     <p className="text-gray-200">Founder - OCEANE CENTER</p>
