@@ -74,7 +74,7 @@ const products: Product[] = [
     features: [
       { icon: Star, text: "Large size, Benin origin", color: "text-amber-500" },
       { icon: Package, text: "50 pieces or custom bags", color: "text-amber-500" },
-      { icon: Calendar, text: "Shelf life: up to 60 days", color: "text-blue-500" }
+      { icon: Calendar, text: "Shelf life: 16-18 months", color: "text-blue-500" }
     ]
   },
   {
