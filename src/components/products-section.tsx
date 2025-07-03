@@ -72,7 +72,7 @@ const products: Product[] = [
     name: "cashew",
     image: "https://images.tcdn.com.br/img/img_prod/753894/muda_de_caju_vermelho_produzindo_altura_de_1_0_m_a_1_5_m_799_2_d1edd054b530b2a737480a33a09a7147.jpg",
     features: [
-      { icon: Star, text: "Large size, Benin origin", color: "text-amber-500" },
+      { icon: Star, text: "cashews, noise & processed", color: "text-amber-500" },
       { icon: Package, text: "50 pieces or custom bags", color: "text-amber-500" },
       { icon: Calendar, text: "Shelf life: 6-12 months", color: "text-blue-500" }
     ]
@@ -171,9 +171,9 @@ const productImages: Record<string, string[]> = {
   ],
   "cashew": [
     "https://images.tcdn.com.br/img/img_prod/753894/muda_de_caju_vermelho_produzindo_altura_de_1_0_m_a_1_5_m_799_2_d1edd054b530b2a737480a33a09a7147.jpg",
-    "https://i.ytimg.com/vi/tpM9BB32TM8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgVihQMA8=&rs=AOn4CLAgPJf1D1JaO3x8uCmMH6mxFQnFBg",
-    "https://files.sbcdnsb.com/images/zv4442JN8p24llC6dKDbNQ/content/1659278258/2630478/acajou.jpeg",
-    "https://www.togofirst.com/media/k2/items/cache/2b801622c01bbf79ca1cbb447cc20416_L.jpg"
+    "https://www.snrd-africa.net/wp-content/uploads/2019/03/fullsizeoutput_404-e1552474345144-800x450.jpeg,
+    "https://agridigitale.com/storage/uploads/NOIX%20CAJOU%20TRANSFORME%20TOGO.jpg",
+    "https://www.cashewmachine.ci/wp-content/uploads/2019/02/liste-des-exportateurs-de-noix-de-cajou-brutes-agrees-au-titre-de-la-campagne-2019-1200x900.jpg"
   ],
   "Ginger": [
     "https://images.prismic.io/la-fourche/tout-savoir-sur-le-gingembre-bienfaits-et-utilisations.jpg?auto=compress,format&rect=0,0,1920,1080&w=1920&h=1080",
