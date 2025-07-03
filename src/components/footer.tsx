@@ -24,12 +24,17 @@ export default function Footer() {
 
   const products = [
     "Cassava Flour (Gari)",
-    "Fresh Coconuts",
+    "Red Palm Oil",
     "Charcoal",
-    "Crude Palm Oil",
-    "Raw Cashew Nuts",
+    "Sorghum",
+    "Shea Nuts",
+    "Coconuts",
+    "Ginger",
+    "Red Chili Pepper",
     "Soybeans",
-    "Raw Cocoa Beans"
+    "Cocoa Beans",
+    "Arachide (Peanut)",
+    "Coconut Fiber (Coir)"
   ];
 
   return (
