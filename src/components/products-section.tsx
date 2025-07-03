@@ -116,6 +116,26 @@ const products: Product[] = [
       { icon: Package, text: "25 kg, 50 kg or custom bags", color: "text-amber-500" },
       { icon: Award, text: "Premium quality", color: "text-blue-500" }
     ]
+  },
+  {
+    id: 11,
+    name: "Arachide (Peanut)",
+    image: "https://previews.123rf.com/images/wilaiwanphoto/wilaiwanphoto1606/wilaiwanphoto160600012/59949138-fresh-peanuts-plants-with-roots-peanut.jpg",
+    features: [
+      { icon: Leaf, text: "Rich in protein and natural oil", color: "text-green-500" },
+      { icon: Package, text: "25 kg, 50 kg or custom bags", color: "text-amber-500" },
+      { icon: Calendar, text: "Shelf life: up to 12 months", color: "text-blue-500" }
+    ]
+  },
+  {
+    id: 12,
+    name: "Coconut Fiber (Coir)",
+    image: "https://media.istockphoto.com/id/509754575/fr/photo/de-noix-de-coco-coir-%C3%A9pi.jpg?s=612x612&w=0&k=20&c=husLNxvrJgF4HZ4QoAEnijLQJSBhQUU_OmCobCw2OJE=",
+    features: [
+      { icon: Sprout, text: "Natural, biodegradable and durable fiber", color: "text-green-500" },
+      { icon: Package, text: "Compressed bales or rolls", color: "text-amber-500" },
+      { icon: Award, text: "Used for mulching, horticulture, ropes", color: "text-blue-500" }
+    ]
   }
 ];
 
@@ -173,6 +193,21 @@ const productImages: Record<string, string[]> = {
     "https://shouka-chamonix.fr/wp-content/uploads/2021/01/Cabosses-scaled.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyKiTxB8TUSV9ifp0xDo1ECXFew1CnxjelOA&s",
     "https://www.sagaphoto.com/bassedefWM/PF002454.jpg"
+  ],
+  "Arachide (Peanut)": [
+    "https://previews.123rf.com/images/wilaiwanphoto/wilaiwanphoto1606/wilaiwanphoto160600012/59949138-fresh-peanuts-plants-with-roots-peanut.jpg",
+    "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/79de/live/2e3cff10-280d-11ef-baa7-25d483663b8e.jpg.webp",
+    "https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2016/07/20/dsc_0359n.jpg",
+    "https://media.dailythanthi.com/h-upload/2022/12/04/1019589-12.webp",
+    "https://www.studiotamani.org/wp-content/uploads/2024/12/PHOTO-BAFOULABE-3.jpg"
+  ],
+  "Coconut Fiber (Coir)": [
+    "https://media.istockphoto.com/id/509754575/fr/photo/de-noix-de-coco-coir-%C3%A9pi.jpg?s=612x612&w=0&k=20&c=husLNxvrJgF4HZ4QoAEnijLQJSBhQUU_OmCobCw2OJE=",
+    "https://i.etsystatic.com/23741052/r/il/cc7ae4/3026193441/il_794xN.3026193441_7xua.jpg",
+    "https://media.istockphoto.com/id/2155482150/fr/photo/coconut-coir-rope-making-with-traditional-process.jpg?s=612x612&w=0&k=20&c=gOM7xJ5aPBvso4nE2f2zMHAuSNOt0QmNIN4zlBHIj-U=",
+    "https://www.ceyloncoirfibre.com/img/coirfibrebale/CoirBaleFibre-02.jpg"
+    
+    
   ]
 };
 
@@ -190,7 +225,7 @@ export default function ProductsSection() {
     if (autoplayRef.current) clearInterval(autoplayRef.current);
     autoplayRef.current = setInterval(() => {
       if (emblaApi) emblaApi.scrollNext();
-    }, 3000);
+    }, 5000);
     return () => {
       if (autoplayRef.current) clearInterval(autoplayRef.current);
       emblaApi.off('select', onSelect);
