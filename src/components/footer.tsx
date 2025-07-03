@@ -28,7 +28,7 @@ export default function Footer() {
     "Charcoal",
     "Sorghum",
     "Shea Nuts",
-    "Coconuts",
+    "cashew",
     "Ginger",
     "Red Chili Pepper",
     "Soybeans",
