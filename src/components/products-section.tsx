@@ -171,7 +171,7 @@ const productImages: Record<string, string[]> = {
   ],
   "cashew": [
     "https://images.tcdn.com.br/img/img_prod/753894/muda_de_caju_vermelho_produzindo_altura_de_1_0_m_a_1_5_m_799_2_d1edd054b530b2a737480a33a09a7147.jpg",
-    "https://www.snrd-africa.net/wp-content/uploads/2019/03/fullsizeoutput_404-e1552474345144-800x450.jpeg,
+    "https://www.snrd-africa.net/wp-content/uploads/2019/03/fullsizeoutput_404-e1552474345144-800x450.jpeg",
     "https://agridigitale.com/storage/uploads/NOIX%20CAJOU%20TRANSFORME%20TOGO.jpg",
     "https://www.cashewmachine.ci/wp-content/uploads/2019/02/liste-des-exportateurs-de-noix-de-cajou-brutes-agrees-au-titre-de-la-campagne-2019-1200x900.jpg"
   ],
